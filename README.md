@@ -2,8 +2,6 @@
 
 A simple tic tac toe game, built in VueJS.
 
-[![License: MIT][license-image][license-url]]
-
 [Play the game](https://www.alexandrecanijo.com/tictactoevuejs/)
 
 ## Table of contents
@@ -37,3 +35,6 @@ https://codepen.io/timrijkse/pen/XjLGKv
 
 ### 0.0.1
 The first release of this game, it the most basic code in VueJS, without any other technology.
+
+[license-image]: https://img.shields.io/badge/license-GPL%203-blue.svg
+[license-url]: LICENSE.md
