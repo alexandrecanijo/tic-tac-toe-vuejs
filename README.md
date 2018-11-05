@@ -2,15 +2,9 @@
 
 A simple tic tac toe game, built in VueJS.
 
+[![CircleCI](https://circleci.com/gh/alexandrecanijo/tic-tac-toe-vuejs.svg?style=svg)](https://circleci.com/gh/alexandrecanijo/tic-tac-toe-vuejs)  [![Codacy Badge](https://api.codacy.com/project/badge/Grade/386b17076f5b4fe6ba4d667bcaa66512)](https://www.codacy.com/app/alexandrecanijo/tic-tac-toe-vuejs?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=alexandrecanijo/tic-tac-toe-vuejs&amp;utm_campaign=Badge_Grade)
+
 [Play the game](https://www.alexandrecanijo.com/tictactoevuejs/)
-
-* [An Awesome Book](http://example.com/example.html)
-
-### Example
-* [Another Awesome Book](http://example.com/book.html)
-
-* [Some Other Book](http://example.com/other.html)
-
 
 ## Table of contents
 
