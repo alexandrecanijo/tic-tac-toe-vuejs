@@ -11,6 +11,7 @@ A simple tic tac toe game, built in VueJS.
 * [Why](#why)
 * [Based on work done](#based-on-work-done)
 * [Releases](#releases)
+  * [0.0.2 - Adding VueCLI structure](#0.0.2) 
   * [0.0.1 - The very first release](#0.0.1) 
 
 
@@ -37,3 +38,7 @@ https://codepen.io/timrijkse/pen/XjLGKv
 
 ### 0.0.1
 The first release of this game, it the most basic code in VueJS, without any other technology.
+
+### 0.0.2
+Used VueCLI3 to setup a project and look at the differences the CLI created, and replicated those on this project.
+Also added the Codacy and CircleCI tools to analyse code (without any propers tests, yet)
