@@ -2,21 +2,16 @@
 
 A simple tic tac toe game, built in VueJS.
 
+[![CircleCI](https://circleci.com/gh/alexandrecanijo/tic-tac-toe-vuejs.svg?style=svg)](https://circleci.com/gh/alexandrecanijo/tic-tac-toe-vuejs)  [![TravisCI](https://travis-ci.com/alexandrecanijo/tic-tac-toe-vuejs.svg?branch=master)](https://travis-ci.com/alexandrecanijo/tic-tac-toe-vuejs)  [![Codacy Badge](https://api.codacy.com/project/badge/Grade/386b17076f5b4fe6ba4d667bcaa66512)](https://www.codacy.com/app/alexandrecanijo/tic-tac-toe-vuejs?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=alexandrecanijo/tic-tac-toe-vuejs&amp;utm_campaign=Badge_Grade)
+
 [Play the game](https://www.alexandrecanijo.com/tictactoevuejs/)
-
-* [An Awesome Book](http://example.com/example.html)
-
-### Example
-* [Another Awesome Book](http://example.com/book.html)
-
-* [Some Other Book](http://example.com/other.html)
-
 
 ## Table of contents
 
 * [Why](#why)
 * [Based on work done](#based-on-work-done)
 * [Releases](#releases)
+  * [0.0.2 - Adding VueCLI structure](#0.0.2) 
   * [0.0.1 - The very first release](#0.0.1) 
 
 
@@ -43,3 +38,7 @@ https://codepen.io/timrijkse/pen/XjLGKv
 
 ### 0.0.1
 The first release of this game, it the most basic code in VueJS, without any other technology.
+
+### 0.0.2
+Used VueCLI3 to setup a project and look at the differences the CLI created, and replicated those on this project.
+Also added the Codacy and CircleCI tools to analyse code (without any propers tests, yet)
