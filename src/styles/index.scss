@@ -1,0 +1,18 @@
+@import "variables";
+@import "colors";
+@import "helpers";
+@import "reset";
+@import "media-queries";
+
+@include reset;
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+  font-family: $font-family;
+  font-size: $unit;
+  color: $color-text-primary;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}

@@ -1,0 +1,71 @@
+@import "../variables";
+@import "../colors";
+@import "../helpers";
+@import "../reset";
+@import "../media-queries";
+
+@include reset;
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+  font-family: $font-family;
+  font-size: $unit;
+  color: $color-text-primary;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+html,
+body {
+  background: #000;
+}
+
+.player {
+  text-align: center;
+  font-size: 3rem;
+  line-height: 11rem;
+  margin: 2rem 0 2rem;
+  height: 12rem;
+}
+
+.player .actual {
+  color: #44d23c;
+  font-weight: bold;
+  text-transform: uppercase;
+  display: inline-block;
+  width: 30px;
+}
+
+
+.column {
+  width: 100px;
+  height: 100px;
+  text-align: center;
+  vertical-align: middle;
+  font-size: 100px;
+  line-height: 70px;
+  display: inline-block;
+  user-select: none;
+  color: #44d23c;
+  background: #424149;
+  background-image: linear-gradient(-179deg, #424149, #161519);
+  box-shadow: inset 0 1px 4px 2px rgba(0, 0, 0, .2);
+  border-left: 2px solid #95da7e;
+  border-top: 2px solid #95da7e;
+  -o-border-image: linear-gradient(rgba(149, 218, 126, .5), rgba(17, 66, 31, .5), rgba(49, 124, 71, .5)) 10 10;
+  border-image: linear-gradient(rgba(149, 218, 126, .5), rgba(17, 66, 31, .5), rgba(49, 124, 71, .5)) 10 10;
+}
+
+.column:hover {
+  cursor: pointer;
+}
+
+.column:last-child {
+  border-right: 2px solid #95da7e;
+}
+
+.row:last-child .column {
+  border-bottom: 2px solid #95da7e;
+}
